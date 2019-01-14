@@ -1,3 +1,4 @@
+#99.76%
 #Import needed libraries and perform initializations
 import numpy
 import numpy as np
@@ -204,7 +205,7 @@ def train (wordList,posList, thing, XAA, activationFunction):
 
 
 train(wordList,posList,88, XAA, "sigmoid")
-train(wordList,posList,88, XAA, "relu")
+#train(wordList,posList,88, XAA, "relu")
 train(wordList,posList,88, XAA, "softmax")
-train(wordList,posList,88, XAA, "tanh")
+#train(wordList,posList,88, XAA, "tanh")
 print(results)

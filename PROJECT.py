@@ -1,4 +1,3 @@
-#Import needed libraries and perform initializations
 import numpy
 import numpy as np
 import pandas
